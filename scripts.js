@@ -13,5 +13,5 @@ var GalaxyS6 = new Phone("Samsung", 3000, "black");
 var OnePlusOne = new Phone("OnePlus", 1500, "white");
 
 iPhone6S.printInfo();
-GalaxyS6.printInf0();
+GalaxyS6.printInfo();
 OnePlusOne.printInfo();
