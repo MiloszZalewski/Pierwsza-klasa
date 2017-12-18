@@ -8,10 +8,10 @@ Phone.prototype.printInfo = function() {
     console.log("The phone brand is " + this.brand + ", color is " + this.color + " and the price is " + this.price + ".");
 }
 
-var iPhone6S = new Phone("Apple", 2250, "silver");
-var GalaxyS6 = new Phone("Samsung", 3000, "black");
-var OnePlusOne = new Phone("OnePlus", 1500, "white");
+var iphone6s = new Phone("Apple", 2250, "silver");
+var galaxys6 = new Phone("Samsung", 3000, "black");
+var oneplusone = new Phone("OnePlus", 1500, "white");
 
-iPhone6S.printInfo();
-GalaxyS6.printInfo();
-OnePlusOne.printInfo();
+iphone6s.printInfo();
+galaxys6.printInfo();
+oneplusone.printInfo();
